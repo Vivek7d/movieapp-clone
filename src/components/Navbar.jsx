@@ -48,11 +48,11 @@ function Navbar() {
       />
       </Link>
       <ul className="hidden space-x-4 lg:flex">
-        <li className="headerLink">Home</li>
-        <li className="headerLink">TV Shows</li>
-        <li className="headerLink">Movies</li>
-        <li className="headerLink">New & Popular</li>
-        <li className="headerLink">My List</li>
+        <Link to='./'><li className="headerLink">Home</li></Link>
+        <Link to='./'><li className="headerLink">TV Shows</li></Link>
+        <Link to='./'><li className="headerLink">Movies</li></Link>
+        <Link to='./'><li className="headerLink">New & Popular</li></Link>
+       <Link to='/account'><li className="headerLink">My List</li></Link> 
       </ul>
       </div>
      {user?.email? <div className="flex items-center space-x-4 text-sm font-light">
