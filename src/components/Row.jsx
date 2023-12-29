@@ -20,7 +20,7 @@ function Row({ title, fetchURL, rowId }) {
     slider.scrollLeft=slider.scrollLeft+500
   }
   return (
-    <div className="">
+    <div className="relative bottom-[200px] md:bottom-[720px] lg:bottom-24">
       <h2 className=" text-white font-bold md:text-xl p-4  ">{title}</h2>
       <div className="relative flex items-center group">
       <MdChevronLeft  onClick={slideLeft} size={40} className="bg-white left-0 rounded-full absolute opacity-50 hover:opacity-100 cursor-pointer z-10 hidden group-hover:block"/>
