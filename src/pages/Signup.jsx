@@ -57,7 +57,7 @@ function Signup() {
                   Already Subscribe to Netflix?
                 </span>
                 {"   "}
-                <Link to="/login">Sign In</Link>z
+                <Link to="/login">Sign In</Link>
               </p>
             </form>
           </div>
